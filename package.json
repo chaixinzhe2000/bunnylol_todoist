@@ -5,8 +5,10 @@
   "repository": "git@github.com:chaixinzhe2000/bunnylol_todoist.git",
   "author": "Xinzhe Chai <xinzhe_chai@brown.edu>",
   "license": "MIT",
+	"type": "module",
   "dependencies": {
     "@doist/todoist-api-typescript": "^2.1.2",
+    "chrono-node": "^2.5.0",
     "express": "^4.18.2"
   }
 }
