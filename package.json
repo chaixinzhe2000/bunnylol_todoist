@@ -1,0 +1,12 @@
+{
+  "name": "bunnylol_todoist",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:chaixinzhe2000/bunnylol_todoist.git",
+  "author": "Xinzhe Chai <xinzhe_chai@brown.edu>",
+  "license": "MIT",
+  "dependencies": {
+    "@doist/todoist-api-typescript": "^2.1.2",
+    "express": "^4.18.2"
+  }
+}
