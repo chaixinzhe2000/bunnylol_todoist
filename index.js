@@ -17,7 +17,7 @@ app.get("/add", async (req, res) => {
 	try {
 		if (todoString.includes("@")) {
 			const timeString = todoString.substring(todoString.indexOf("@") + 1)
-			const dueDate = chrono.parseDate(timeString)
+			const dueDate = chrono.parseDate(timeString, { timezone: "EST" })
 			assignmentString = todoString.substring(0, todoString.indexOf("@"))
 			addResponse = await api.addTask({ content: assignmentString, dueDatetime: dueDate })
 		} else {
